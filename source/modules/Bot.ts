@@ -4,7 +4,7 @@ import * as ACData from "adaptivecards-templating";
 import * as PromptCard from "../cards/prompt.json";
 import * as ImagesCard from "../cards/image.json";
 
-export class DalleBot extends TeamsActivityHandler {
+export class DalleBotActivityHandler extends TeamsActivityHandler {
     constructor() {
         super();
     }
